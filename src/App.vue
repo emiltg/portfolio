@@ -71,6 +71,8 @@
     import Hero from '@/components/Sections/hero.vue'
     import Music from '@/components/Sections/music.vue'
 
+    // zdr
+
     onMounted(() => {
         document.querySelectorAll("a[href^='#']").forEach((anchor) => {
             anchor.addEventListener('click', (e) => {
